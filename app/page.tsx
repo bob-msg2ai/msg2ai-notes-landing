@@ -12,9 +12,7 @@ import {
   ArrowRight,
   Play,
   Menu,
-  X,
-  ChevronRight,
-  Star
+  X
 } from 'lucide-react'
 
 // Smooth scroll hook
@@ -44,42 +42,6 @@ function useScrollAnimation() {
   }
 
   return { visibleItems, observe }
-}
-
-// Animated Counter
-function Counter({ end, suffix = '' }: { end: number; suffix?: string }) {
-  const [count, setCount] = useState(0)
-  const [hasAnimated, setHasAnimated] = useState(false)
-  const ref = useRef<HTMLSpanElement>(null)
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !hasAnimated) {
-          setHasAnimated(true)
-          const duration = 2000
-          const steps = 60
-          const increment = end / steps
-          let current = 0
-          const timer = setInterval(() => {
-            current += increment
-            if (current >= end) {
-              setCount(end)
-              clearInterval(timer)
-            } else {
-              setCount(Math.floor(current))
-            }
-          }, duration / steps)
-        }
-      },
-      { threshold: 0.5 }
-    )
-
-    if (ref.current) observer.observe(ref.current)
-    return () => observer.disconnect()
-  }, [end, hasAnimated])
-
-  return <span ref={ref}>{count.toLocaleString()}{suffix}</span>
 }
 
 const features = [
@@ -415,27 +377,7 @@ export default function LandingPage() {
             </a>
           </div>
 
-          {/* Stats */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', maxWidth: '400px' }}>
-            {[
-              { value: 2500, suffix: '+', label: 'Users' },
-              { value: 15000, suffix: '+', label: 'Events' },
-              { value: 85000, suffix: '+', label: 'Contacts' }
-            ].map((stat) => (
-              <div key={stat.label} style={{ textAlign: 'center' }}>
-                <div style={{ 
-                  fontSize: '28px', 
-                  fontWeight: 700,
-                  background: 'linear-gradient(135deg, #00d4ff, #00a8e8)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent'
-                }}>
-                  <Counter end={stat.value} suffix={stat.suffix} />
-                </div>
-                <div style={{ fontSize: '12px', color: '#64748b', marginTop: '4px' }}>{stat.label}</div>
-              </div>
-            ))}
-          </div>
+          <p style={{ fontSize: '14px', color: '#64748b' }}>No credit card required</p>
         </div>
       </section>
 
