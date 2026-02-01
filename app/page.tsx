@@ -138,7 +138,7 @@ export default function LandingPage() {
             <div style={{ 
               width: '36px', 
               height: '36px', 
-              background: 'linear-gradient(135deg, #00d4ff, #00a8e8)', 
+              background: 'linear-gradient(135deg, #8b5cf6, #a855f7)', 
               borderRadius: '10px',
               display: 'flex',
               alignItems: 'center',
@@ -149,7 +149,7 @@ export default function LandingPage() {
             </div>
             <div>
               <div style={{ fontSize: '18px', fontWeight: 700, color: '#fff', letterSpacing: '-0.5px' }}>Msg2ai</div>
-              <div style={{ fontSize: '11px', color: '#00d4ff', fontWeight: 500 }}>NOTES</div>
+              <div style={{ fontSize: '11px', color: '#8b5cf6', fontWeight: 500 }}>NOTES</div>
             </div>
           </a>
 
@@ -166,7 +166,7 @@ export default function LandingPage() {
                   fontWeight: 500,
                   transition: 'color 0.2s'
                 }}
-                onMouseEnter={(e) => e.currentTarget.style.color = '#00d4ff'}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#8b5cf6'}
                 onMouseLeave={(e) => e.currentTarget.style.color = '#94a3b8'}
               >
                 {item}
@@ -175,7 +175,7 @@ export default function LandingPage() {
             <a 
               href="#signup"
               style={{
-                background: 'linear-gradient(135deg, #00d4ff, #00a8e8)',
+                background: 'linear-gradient(135deg, #8b5cf6, #a855f7)',
                 color: '#0a0f1a',
                 padding: '10px 20px',
                 borderRadius: '8px',
@@ -237,7 +237,7 @@ export default function LandingPage() {
               href="#signup"
               onClick={() => setMobileMenu(false)}
               style={{
-                background: 'linear-gradient(135deg, #00d4ff, #00a8e8)',
+                background: 'linear-gradient(135deg, #8b5cf6, #a855f7)',
                 color: '#0a0f1a',
                 padding: '16px 24px',
                 borderRadius: '12px',
@@ -300,8 +300,8 @@ export default function LandingPage() {
             borderRadius: '50px',
             marginBottom: '24px'
           }}>
-            <Sparkles style={{ width: '16px', height: '16px', color: '#00d4ff' }} />
-            <span style={{ color: '#00d4ff', fontSize: '13px', fontWeight: 500 }}>Limited Beta — Join Free</span>
+            <Sparkles style={{ width: '16px', height: '16px', color: '#8b5cf6' }} />
+            <span style={{ color: '#8b5cf6', fontSize: '13px', fontWeight: 500 }}>Limited Beta — Join Free</span>
           </div>
 
           {/* Headline */}
@@ -314,7 +314,7 @@ export default function LandingPage() {
           }}>
             Never Lose a{' '}
             <span style={{
-              background: 'linear-gradient(135deg, #00d4ff, #00a8e8)',
+              background: 'linear-gradient(135deg, #8b5cf6, #a855f7)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent'
             }}>
@@ -340,7 +340,7 @@ export default function LandingPage() {
             <a 
               href="#signup"
               style={{
-                background: 'linear-gradient(135deg, #00d4ff, #00a8e8)',
+                background: 'linear-gradient(135deg, #8b5cf6, #a855f7)',
                 color: '#0a0f1a',
                 padding: '16px 28px',
                 borderRadius: '12px',
@@ -386,7 +386,7 @@ export default function LandingPage() {
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
           <div style={{ textAlign: 'center', marginBottom: '48px' }}>
             <h2 style={{ fontSize: '32px', fontWeight: 700, marginBottom: '12px' }}>
-              Everything You <span style={{ color: '#00d4ff' }}>Need</span>
+              Everything You <span style={{ color: '#8b5cf6' }}>Need</span>
             </h2>
             <p style={{ color: '#64748b', fontSize: '16px' }}>Powerful features for effortless networking</p>
           </div>
@@ -420,7 +420,7 @@ export default function LandingPage() {
                     justifyContent: 'center',
                     marginBottom: '16px'
                   }}>
-                    <Icon style={{ width: '24px', height: '24px', color: '#00d4ff' }} />
+                    <Icon style={{ width: '24px', height: '24px', color: '#8b5cf6' }} />
                   </div>
                   <h3 style={{ fontSize: '18px', fontWeight: 600, marginBottom: '8px' }}>{feature.title}</h3>
                   <p style={{ color: '#64748b', fontSize: '14px', lineHeight: 1.6 }}>{feature.description}</p>
@@ -436,7 +436,7 @@ export default function LandingPage() {
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
           <div style={{ textAlign: 'center', marginBottom: '48px' }}>
             <h2 style={{ fontSize: '32px', fontWeight: 700, marginBottom: '12px' }}>
-              How It <span style={{ color: '#00d4ff' }}>Works</span>
+              How It <span style={{ color: '#8b5cf6' }}>Works</span>
             </h2>
             <p style={{ color: '#64748b', fontSize: '16px' }}>Four simple steps to success</p>
           </div>
@@ -460,7 +460,7 @@ export default function LandingPage() {
                 <div style={{
                   width: '56px',
                   height: '56px',
-                  background: 'linear-gradient(135deg, #00d4ff, #00a8e8)',
+                  background: 'linear-gradient(135deg, #8b5cf6, #a855f7)',
                   borderRadius: '16px',
                   display: 'flex',
                   alignItems: 'center',
@@ -486,7 +486,7 @@ export default function LandingPage() {
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
           <div style={{ textAlign: 'center', marginBottom: '48px' }}>
             <h2 style={{ fontSize: '32px', fontWeight: 700, marginBottom: '12px' }}>
-              Simple <span style={{ color: '#00d4ff' }}>Pricing</span>
+              Simple <span style={{ color: '#8b5cf6' }}>Pricing</span>
             </h2>
             <p style={{ color: '#64748b', fontSize: '16px' }}>Choose what works for you</p>
           </div>
@@ -512,7 +512,7 @@ export default function LandingPage() {
                   background: plan.popular 
                     ? 'linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(0, 168, 232, 0.05))' 
                     : 'rgba(255, 255, 255, 0.03)',
-                  border: `2px solid ${plan.popular ? '#00d4ff' : 'rgba(255, 255, 255, 0.06)'}`,
+                  border: `2px solid ${plan.popular ? '#8b5cf6' : 'rgba(255, 255, 255, 0.06)'}`,
                   borderRadius: '20px',
                   padding: '28px',
                   position: 'relative'
@@ -524,7 +524,7 @@ export default function LandingPage() {
                     top: '-12px',
                     left: '50%',
                     transform: 'translateX(-50%)',
-                    background: '#00d4ff',
+                    background: '#8b5cf6',
                     color: '#0a0f1a',
                     padding: '6px 16px',
                     borderRadius: '20px',
@@ -555,7 +555,7 @@ export default function LandingPage() {
                         alignItems: 'center',
                         justifyContent: 'center'
                       }}>
-                        <Check style={{ width: '12px', height: '12px', color: '#00d4ff' }} />
+                        <Check style={{ width: '12px', height: '12px', color: '#8b5cf6' }} />
                       </div>
                       <span style={{ color: '#94a3b8' }}>{feature}</span>
                     </li>
@@ -568,7 +568,7 @@ export default function LandingPage() {
                     display: 'block',
                     width: '100%',
                     background: plan.popular 
-                      ? 'linear-gradient(135deg, #00d4ff, #00a8e8)' 
+                      ? 'linear-gradient(135deg, #8b5cf6, #a855f7)' 
                       : 'rgba(255, 255, 255, 0.1)',
                     color: plan.popular ? '#0a0f1a' : '#fff',
                     padding: '14px',
@@ -595,7 +595,7 @@ export default function LandingPage() {
                   width: activePricing === i ? '24px' : '8px',
                   height: '8px',
                   borderRadius: '4px',
-                  background: activePricing === i ? '#00d4ff' : 'rgba(255, 255, 255, 0.2)',
+                  background: activePricing === i ? '#8b5cf6' : 'rgba(255, 255, 255, 0.2)',
                   border: 'none',
                   transition: 'all 0.3s'
                 }}
@@ -628,7 +628,7 @@ export default function LandingPage() {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '8px',
-              background: 'linear-gradient(135deg, #00d4ff, #00a8e8)',
+              background: 'linear-gradient(135deg, #8b5cf6, #a855f7)',
               color: '#0a0f1a',
               padding: '16px 32px',
               borderRadius: '12px',
@@ -649,7 +649,7 @@ export default function LandingPage() {
             <div style={{ 
               width: '32px', 
               height: '32px', 
-              background: 'linear-gradient(135deg, #00d4ff, #00a8e8)', 
+              background: 'linear-gradient(135deg, #8b5cf6, #a855f7)', 
               borderRadius: '8px',
               display: 'flex',
               alignItems: 'center',
